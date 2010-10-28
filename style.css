@@ -1,0 +1,309 @@
+body
+{
+//background-color: #068481;
+ background-color: #808069;
+ font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+//background-color: #eaeaae ;
+}
+
+
+#allcontent
+{
+margin-left: 150px ;
+margin-right: 150px ;
+background-color: white ;
+padding-bottom: 30px ;
+position: relative ;
+}
+
+#logo
+{
+  width: 100% ;
+  height: 250px ;
+ }
+ 
+ #page_title
+ {
+   color: #068481;
+   font-size: 1.4em ;
+   margin-left: 350px ;
+   padding-top: 30px ;
+   }
+   
+ 
+.info
+{
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.subtitle
+{
+	margin-left: 50px ;
+	clear: both ;
+	padding-top: 50px ;
+}
+
+
+
+ #box-table-a
+{
+	//font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-family: Sans-Serif ;
+	font-size: 13px;
+	margin: 45px;
+	margin-left: 120px;
+	//width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	line-height: 1.6em;
+	width: 75%;
+}
+#box-table-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-a td
+{
+	padding: 8px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+	font-size: 14px ;
+}
+#box-table-a tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+#box-table-a > tbody > tr > td > a:visited, #box-table-a > tbody > tr > td > a:link
+{
+  color: #669 ;
+}
+
+
+#box-table-a a:hover
+{
+  color: #339;
+}
+
+ form#reg_form
+   {
+	 background: #9cbc2c;
+	-moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	 border-radius: 5px;
+	 padding: 20px;
+	 
+ }
+
+ 
+ form#reg_form fieldset
+ {
+   border: none;
+   margin-bottom: 10px;
+ }
+ 
+ form#reg_form fieldset:last-of-type
+ {
+   margin-bottom: 0px;
+ }
+ 
+ form#reg_form legend
+ {
+	 color: #384313;
+	 font-size: 18px;
+	 font-weight: bold;
+	 padding-bottom: 10px;
+	 text-shadow: 0 1px 1px #c0d576;
+ }
+ 
+  form#reg_form ol li 
+  {
+	 background: #b9cf6a;
+	 background: rgba(255,255,255,.3);
+	 border-color: #e3ebc3;
+	 border-color: rgba(255,255,255,.6);
+	 border-style: solid;
+	 border-width: 2px;
+	 -moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	 border-radius: 5px;
+	 line-height: 30px;
+	 list-style: none;
+	 padding: 5px 10px;
+	 margin-bottom: 2px;
+ }
+
+ 
+ form#reg_form label
+ {
+   float: left;
+   font-size: 15px;
+   width: 250px;
+ }
+ 
+ form#reg_form input
+ {
+    background: #ffffff;
+    border: none;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -khtml-border-radius: 3px;
+    border-radius: 3px;
+	outline: none;
+	padding: 5px;
+	width: 400px;
+}
+
+form#reg_form  input[type=submit] 
+{
+		background: #384313;
+		border: none;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-khtml-border-radius: 20px;
+		border-radius: 20px;
+		color: #ffffff;
+		display: block;
+	    letter-spacing: 1px;
+	    margin: auto;
+	    padding: 7px 25px;
+	    text-shadow: 0 1px 1px #000000;
+	    text-transform: uppercase;
+		width: 200px ;
+}
+   
+   form#reg_form  input[type=submit]:hover {
+   background: #1e2506;
+   cursor: pointer;
+   
+   }
+ 
+ .links, .admin_links 
+ {
+	//background: #384313;
+	background: #b9cf6a ;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+   // letter-spacing: 1px;
+	margin: 20px ;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	width: 200px ;
+	text-decoration: none ;
+	font-weight: bold ;
+	float: left ;
+ }
+ 
+ #index_to_admin
+ {
+ margin: 20px ;
+ width: 150px ;
+ }
+ 
+ #delete_reg
+{
+color: #ffffff;
+font-weight: bold ;
+}
+
+.admin_links
+{
+width: 130px ;
+
+//padding-left: 300px ;
+}
+ 
+ p.error
+ {
+ margin-left: 30px ;
+ color: red ;
+ font-weight: bold ;
+ }
+ 
+ #footer
+ {
+ //background: #9cbc2c;
+ padding-left: 30px ;
+ padding-top: 20px ;
+ clear: both ;
+ }
+ 
+ .devs
+ {
+ //background: #b9cf6a ;
+ background: #808069 ;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	// display: block;
+   // letter-spacing: 1px;
+	// margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	width: 150px ;
+	text-decoration: none ;
+	font-weight: bold ;
+}
+
+#reg_success
+{
+padding-left: 30px ;
+line-height: 1.3em ;
+font-weight: bold ;
+color: green ;
+}
+
+#delete_page 
+{
+padding-left: 30px ;
+padding-bottom: 200px ;
+}
+
+.a_links
+{
+float: right ;
+width: 400px ;
+margin-right: 20px ;
+} 
+
+#createcollege
+{
+float: right;
+}
+   
+#reg_details
+{
+color: black ;
+}
+
+#admin_details
+{
+clear: both ;
+padding-left: 50px ;
+padding-top:15x ;
+font-size: 16px ;
+line-height: 1.3em ;
+}
+
+
+
+
+	

@@ -1,0 +1,6 @@
+Gravitas Event Registration Software
+Copyright 2010 Samridhi Shree and Rohit Mishra
+
+This software is designed for doing event registrations for a college fest. 
+
+SQL commands for creating the necessary MySQL database can be found in "gravitas.sql". We will add more functionality in the future version.
